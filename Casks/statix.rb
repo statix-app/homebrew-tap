@@ -15,6 +15,7 @@ cask "statix" do
   name "Statix"
   desc "Sistema de análisis y estadísticas"
   homepage "https://statix.mycomuapp.com/"
+  icon "https://statix.mycomuapp.com/assets/img/logo.png"
 
   depends_on macos: :big_sur
 
