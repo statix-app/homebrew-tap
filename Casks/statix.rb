@@ -1,12 +1,13 @@
 cask "statix" do
   on_arm do
     version "1.0.2"
-    sha256 "11ad6dc84d5138f8aa6981f8403753c04e8e030a66930d8224818e6ca32c3cbd"
+    sha256 "4d8d394491c4d8a3c0c121a0e14f92b6f8e0d2a9a78b81a7d41e07be7fc317b8"
     url "https://statix.mycomuapp.com/software/#{version}/Statix-#{version}-arm64.dmg"
   end
+
   on_intel do
     version "1.0.2"
-    sha256 "1c585076c86dd74dd748abbac2d6e2b8b51b2454ff2cd4213e3366242abb79ad"
+    sha256 "c675dc64d9c503d0e754f305a27d1180276c1a1b95e5a1123f17f11816159b64"
     url "https://statix.mycomuapp.com/software/#{version}/Statix-#{version}.dmg"
   end
 
